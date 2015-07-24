@@ -16,3 +16,8 @@ foreach( LogEntry entry in logParser ) {
 
 logParser.Dispose();
 ````
+##TODO
+
+- Some tests (I'm lazy)
+- Polish damage entry parsing
+- Separate program from library
