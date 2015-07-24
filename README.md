@@ -1,6 +1,6 @@
 #Star Conflict Combat Log Parser
 
-C# parser for the game's combat.log file.
+A parser writte in C# for the game's combat.log files. It can either parse the file as a whole or continously listen to the stream for changes, excellent for writing a live log analyzer.
 
 ##Usage
 ````C#
