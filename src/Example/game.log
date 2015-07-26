@@ -1,0 +1,882 @@
+
+--- Date: 2015-07-26 (Sun Jul 2015) GTB Daylight Time UTC+02:00
+
+13:08:30.471         | //////////////////////////////////////////////////////////////////////////////
+13:08:30.471         | //
+13:08:30.471         | // Build: StarConflict 1.1.6a.72455 (Jul  8 2015 17:41:50)
+13:08:30.471         | //
+13:08:30.471         | //////////////////////////////////////////////////////////////////////////////
+13:08:30.471         | 
+13:08:30.635         | Steam initialized appId 212070, userSteamID 1|1|2386e8a, userName 'Deluvas'
+13:08:33.774         | Try to setup resolution 1680x1050 1680x1050 2
+13:08:34.792         | Client language: ENGLISH
+13:08:34.851         | Number of audio devices: 2
+13:08:34.851         |  Audio device 0: Speakers (VIA High Definition Audio)
+13:08:34.894         | 	Sound caps: OUTPUT_FORMAT_PCM8 OUTPUT_FORMAT_PCM16 OUTPUT_FORMAT_PCM24 OUTPUT_FORMAT_PCM32 OUTPUT_FORMAT_PCMFLOAT 
+13:08:34.894         | 	Speaker mode: STEREO
+13:08:34.894         |  Audio device 1: SPDIF Interface (TX0) (VIA High Definition Audio)
+13:08:34.894         | 	Sound caps: OUTPUT_FORMAT_PCM8 OUTPUT_FORMAT_PCM16 OUTPUT_FORMAT_PCM24 OUTPUT_FORMAT_PCM32 OUTPUT_FORMAT_PCMFLOAT 
+13:08:34.894         | 	Speaker mode: STEREO
+13:08:34.894         | Number of recording audio devices: 4
+13:08:34.894         |  Recording audio device 0: Microphone (VIA High Definition Audio)
+13:08:34.894         |  Recording audio device 1: Microphone (DroidCam Virtual Audio)
+13:08:34.894         |  Recording audio device 2: Stereo Mix (VIA High Definition Audio)
+13:08:34.894         |  Recording audio device 3: CD Audio (VIA High Definition Audio)
+13:08:34.895         | Speaker mode: STEREO
+13:08:41.776         | DIntit device 0x6F9BD1CF; guid {0A1167F0-31FC-11E4-8004444553540000}, product {BEAD1234-0000-0000-0000504944564944}, name 'vJoy Device'
+13:08:42.290         | Environment setting 'default' loaded
+13:08:42.335         | Entity Defs hash 8FE84FD4. calculated in 1.85 ms
+13:08:43.381         | BnRandCaller succeeded
+13:08:43.402         | ReplayManager: stopping activity due to map change
+13:08:43.471         | ====== starting level: 'levels/mainmenu/mainmenu'  ======
+13:08:43.577         | Environment setting 'mainmenu' loaded
+13:08:45.130         | MasterServer_RequestServerStatus
+13:08:45.130         | MasterServer_RequestServerVersion
+13:08:45.130         | MasterServer_RequestNewsFeed
+13:08:45.130         | MasterServer_RequestServerAddresess
+13:08:45.132         | Requesting web advert ...
+13:08:45.148         | ====== level started:  'levels/mainmenu/mainmenu' success ======
+13:08:45.432  WARNING| frame 118 gameGlobals.frameTimeReal is too large (0.137320)
+13:08:45.444  WARNING| frame 119 gameGlobals.frameTimeReal is too large (0.200365)
+13:08:45.497         | MasterServer_OnServerStatus: status code 0, server status 1
+13:08:45.497         | MasterServer_OnServerVersion: status code 0, version 1.1.6a.72455, my version is 1.1.6a.72455
+13:08:45.498         | MasterServer_OnServerAddresess: status code 0
+13:08:45.503         | MasterServer_OnWebAdvertisement: status code 0
+13:08:45.540         | MasterServer_OnWebAdvertisement: loading image 0/0 from cache...
+13:08:45.557         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.584         | MasterServer_OnWebAdvertisement: loading image 0/1 from cache...
+13:08:45.597         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.606         | MasterServer_OnWebAdvertisement: loading image 1/0 from cache...
+13:08:45.617         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.648         | MasterServer_OnWebAdvertisement: loading image 1/1 from cache...
+13:08:45.662         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.674         | MasterServer_OnWebAdvertisement: loading image 2/0 from cache...
+13:08:45.686         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.702         | MasterServer_OnWebAdvertisement: loading image 2/1 from cache...
+13:08:45.708         | MasterServer_OnWebAdvertImage: status code 0
+13:08:45.708         | Finalizing WebAd image fetching.
+13:08:45.711         | MasterServer_OnNewsFeed: status code 0
+13:08:45.714  WARNING| frame 129 gameGlobals.frameTimeReal is too large (0.207648)
+13:08:48.303         | MasterServerEndpoint: connecting to load balancer at 91.230.61.97:3801 [0]...
+13:08:48.365         | MasterServerEndpoint: connected to load balancer 91.230.61.97:3801, awaiting shard address...
+13:08:48.437         | Applying LB cvars...
+13:08:48.437         | 'mss_playerBoughtVesselAdCooldown' <- '20.000'
+13:08:48.437         | 'clan_shipBuildHighRanks' <- '10.000'
+13:08:48.437         | 'sv_dailyWinPvpExpRewardCf' <- '2.000'
+13:08:48.437         | 'clan_shipPartsCanBuild' <- '4.000'
+13:08:48.437         | 'sv_dailyWinPveExpRewardCf' <- '2.000'
+13:08:48.437         | 'event_claws' <- '0.000'
+13:08:48.437         | 'mss_playerBoughtVesselAdHiBrace' <- '4.000'
+13:08:48.437         | 'clan_shipUpgradeCanBuild' <- '2.000'
+13:08:48.437         | 'cl_showBiomorphsKilledCounter' <- '0.000'
+13:08:48.437         | 'mss_playerBoughtVesselAdLoBrace' <- '-4.000'
+13:08:48.437         | MasterServerEndpoint: received shard address (91.230.61.67:3802)
+13:08:48.437         | MasterServerEndpoint: received chat server address (91.230.61.100:3815)
+13:08:48.437         | disconnected from masterServer with reason 0
+13:08:48.437         | Disconnecting from load balancer
+13:08:48.514         | MasterServerEndpoint: connected to shard 91.230.61.67:3802, awaiting auth request...
+13:08:49.639         | MasterServerEndpoint: Successfully login to masterServer 91.230.61.67:3802, uid 000EE767, nick Catbox, spaceStationZoneId 2
+13:08:49.730         | StoreSvc: received store hash, its 941c4093
+13:08:49.763         | StoreSvc: loading store cache
+13:08:49.771         | StoreSvc: cache signature matches, loading the store from cache
+13:08:49.771         | Game store size : 427.99316 Kb
+13:08:49.778         | StoreSvc: loading base store took 7.2 ms, but there is a patch probs...
+13:08:49.806  WARNING| m_bufferizedUICalls delivery took 15.3 ms
+13:08:49.855         | Store patch size : 0.33301 Kb
+13:08:49.855         | Store patch was packed, unpacked size : 0.49707 Kb
+13:08:49.855         | StoreSvc: proceeding to special values loading...
+13:08:50.045  WARNING| m_bufferizedUICalls delivery took 6.6 ms
+13:08:50.266  WARNING| m_bufferizedUICalls delivery took 14.0 ms
+13:08:50.278  WARNING| m_bufferizedUICalls delivery took 9.4 ms
+13:08:50.282         | ReplayManager: stopping activity due to map change
+13:08:50.358         | ====== starting level: 'levels\mainmenu\mm_federation'  ======
+13:08:50.497         | Environment setting 'mm_federation' loaded
+13:08:51.264         | ====== level started:  'levels\mainmenu\mm_federation' success ======
+13:08:51.581  WARNING| frame 831 gameGlobals.frameTimeReal is too large (0.271854)
+13:09:17.244  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 11
+13:09:17.244  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(11)
+13:09:17.244  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 213
+13:09:17.244  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(213)
+13:09:17.245  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 206
+13:09:17.245  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(206)
+13:09:17.245  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 35
+13:09:17.245  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(35)
+13:09:17.246  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 223
+13:09:17.246  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(223)
+13:09:17.246  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 212
+13:09:17.246  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(212)
+13:09:17.246  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 134
+13:09:17.246  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(134)
+13:09:17.247  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 214
+13:09:17.247  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(214)
+13:09:17.247  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 105
+13:09:17.247  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(105)
+13:09:17.248  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 215
+13:09:17.248  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(215)
+13:09:17.248  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 12
+13:09:17.248  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(12)
+13:09:17.248  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 136
+13:09:17.248  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(136)
+13:09:17.249  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 32
+13:09:17.249  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(32)
+13:09:17.249  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 102
+13:09:17.249  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(102)
+13:09:17.250  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 16
+13:09:17.250  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(16)
+13:09:17.250  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 221
+13:09:17.250  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(221)
+13:09:17.251  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 104
+13:09:17.251  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(104)
+13:09:17.251  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 33
+13:09:17.251  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(33)
+13:09:17.251  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 25
+13:09:17.251  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(25)
+13:09:17.252  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 13
+13:09:17.252  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(13)
+13:09:17.252  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 207
+13:09:17.252  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(207)
+13:09:17.253  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 34
+13:09:17.253  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(34)
+13:09:17.253  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 101
+13:09:17.253  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(101)
+13:09:17.253  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 227
+13:09:17.253  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(227)
+13:09:17.254  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 125
+13:09:17.254  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(125)
+13:09:17.254  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 219
+13:09:17.254  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(219)
+13:09:17.255  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 126
+13:09:17.255  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(126)
+13:09:17.255  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 222
+13:09:17.255  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(222)
+13:09:17.255  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 218
+13:09:17.255  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(218)
+13:09:17.255  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 124
+13:09:17.256  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(124)
+13:09:17.256  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 220
+13:09:17.256  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(220)
+13:09:17.256  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 225
+13:09:17.256  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(225)
+13:09:17.257  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 229
+13:09:17.257  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(229)
+13:09:17.257  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 224
+13:09:17.257  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(224)
+13:09:17.257  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 22
+13:09:17.257  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(22)
+13:09:17.258  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 208
+13:09:17.258  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(208)
+13:09:17.258  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 122
+13:09:17.258  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(122)
+13:09:17.258  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 21
+13:09:17.258  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(21)
+13:09:17.258  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 216
+13:09:17.258  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(216)
+13:09:17.259  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 132
+13:09:17.259  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(132)
+13:09:17.259  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 31
+13:09:17.259  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(31)
+13:09:17.260  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 131
+13:09:17.260  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(131)
+13:09:17.260  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 121
+13:09:17.260  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(121)
+13:09:17.260  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 123
+13:09:17.260  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(123)
+13:09:17.260  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 135
+13:09:17.260  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(135)
+13:09:17.261  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 26
+13:09:17.261  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(26)
+13:09:17.261  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 103
+13:09:17.261  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(103)
+13:09:17.262  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 14
+13:09:17.262  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(14)
+13:09:17.262  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectorById()[ERROR]: can't find secotor by id: 217
+13:09:17.262  WARNING| script (ui\scripts\windows\gameplaypvemapwnd.lua@0): UI.GameplayBfsMap_ElementWnd:UpdateForData()[ERROR]: UI.Universe:GetSectorById(217)
+13:09:17.262  WARNING| script (ui\scripts\work\gameobjects\universe.lua@0): UI.Universe:GetSectors()[ERROR]: Universe is not inited
+13:09:17.466  WARNING| m_bufferizedUICalls delivery took 31.7 ms
+13:09:57.714         | {
+13:09:57.714         | 	"arcade": 1.000
+13:09:57.714         | 	"region": 0.000
+13:09:57.714         | }
+13:09:58.432         | MasterServerEndpoint: enter matchmaking queue with mmvalue 2569
+13:10:22.131         | SocialList: watch 0007BCAE removed
+13:10:44.864  WARNING| ^1ScrollWnd::SetRange error - invalid range (wndName=ChatNEW_ScrollBarWnd, min=15.000001, max=15.000000)
+13:10:44.868  WARNING| ^1ScrollWnd::SetRange error - invalid range (wndName=ChatNEW_ScrollBarWnd, min=15.000001, max=15.000000)
+13:10:47.310  WARNING| ^1ScrollWnd::SetRange error - invalid range (wndName=ChatNEW_ScrollBarWnd, min=15.000001, max=15.000000)
+13:10:52.241  WARNING| ^1ScrollWnd::SetRange error - invalid range (wndName=ChatNEW_ScrollBarWnd, min=15.000001, max=15.000000)
+13:12:58.826  WARNING| MasterServerEndpoint: leave matchmaking queue ( but will join the game soon )
+13:13:20.186  WARNING| m_bufferizedUICalls delivery took 55.0 ms
+13:13:21.027         | MasterServerSession: connect to dedicated server, session 12558730, at addr 159.8.55.2|35009
+13:13:21.181         | client: start connecting to 159.8.55.2|35009...
+13:13:21.197  WARNING| frame 39586 gameGlobals.frameTimeReal is too large (0.158441)
+13:13:21.312         | client: connected to 159.8.55.2|35009, MTU 1430. setting up session...
+13:13:21.368         | client. send version check message (971 bytes)
+13:13:21.534         | client. got onConnect init message. total 15987 bytes
+13:13:21.537         | client: ADD_PLAYER 0 (OblivionHammer, 0014CCD9) status 2 team 1
+13:13:21.537         | client: ADD_PLAYER 1 (azzi55 [], 000F5EE7) status 6 team 2
+13:13:21.537         | client: ADD_PLAYER 2 (Catbox [NASA], 000EE767) status 1 team 1
+13:13:21.537         | client: ADD_PLAYER 3 (MAKEDOHNA [], 0016BEE2) status 6 team 2
+13:13:21.537         | client: ADD_PLAYER 4 (gek1234 [], 000CE08C) status 2 team 1
+13:13:21.537         | client: ADD_PLAYER 5 (N3R086 [R4ge], 000D3966) status 2 team 2
+13:13:21.537         | client: ADD_PLAYER 6 (LeLionVert [], 0004DE9B) status 6 team 1
+13:13:21.537         | client: ADD_PLAYER 7 (Sergejj3888 [], 0018446E) status 2 team 2
+13:13:21.537         | client: ADD_PLAYER 8 (Sparax, 001B20D0) status 2 team 1
+13:13:21.537         | client: ADD_PLAYER 9 (obcy71 [], 00156B84) status 6 team 2
+13:13:21.537         | client: ADD_PLAYER 10 (FighterJedi [WPK], 00103C94) status 6 team 1
+13:13:21.537         | client: ADD_PLAYER 11 (damir5 [], 0006D550) status 2 team 2
+13:13:21.537         | client: ADD_PLAYER 12 (Sonic89 [], 001AAB69) status 6 team 1
+13:13:21.537         | client: ADD_PLAYER 13 (DeadagroUA [], 00123C50) status 6 team 2
+13:13:21.537         | client: server assigned id 2
+13:13:21.537         | client: got level load message 's1420_ceres3_asteroidcity'
+13:13:21.706         | Profile 'Deluvas' saved successfully in 'c:\users\deluvas\documents\my games\starconflict\profiles\0001.prfl'
+13:13:21.746         | ReplayManager: stopping activity due to map change
+13:13:21.859         | ====== starting level: 'levels\area3\s1420_ceres3_asteroidcity' KingOfTheHill client ======
+13:13:22.520         | Environment setting 's1420_ceres3_asteroidcity' loaded
+13:13:22.728         | client: send ready message
+13:13:22.845         | client: ADD_PLAYER 0 (OblivionHammer, 0014CCD9) status 2 team 1
+13:13:22.845         | client: ADD_PLAYER 1 (azzi55 [SPB], 000F5EE7) status 2 team 2
+13:13:22.845         | client: ADD_PLAYER 2 (Catbox [NASA], 000EE767) status 2 team 1
+13:13:22.845         | client: ADD_PLAYER 3 (MAKEDOHNA [exYU], 0016BEE2) status 2 team 2
+13:13:22.845         | client: ADD_PLAYER 4 (gek1234 [steel], 000CE08C) status 2 team 1
+13:13:22.845         | client: ADD_PLAYER 5 (N3R086 [R4ge], 000D3966) status 2 team 2
+13:13:22.845         | client: ADD_PLAYER 6 (LeLionVert [CBR], 0004DE9B) status 2 team 1
+13:13:22.845         | client: ADD_PLAYER 7 (Sergejj3888 [CCCP], 0018446E) status 4 team 2
+13:13:22.845         | client: ADD_PLAYER 8 (Sparax, 001B20D0) status 2 team 1
+13:13:22.845         | client: ADD_PLAYER 9 (obcy71 [Zet], 00156B84) status 2 team 2
+13:13:22.845         | client: ADD_PLAYER 10 (FighterJedi [WPK], 00103C94) status 4 team 1
+13:13:22.846         | client: ADD_PLAYER 11 (damir5 [SPB], 0006D550) status 2 team 2
+13:13:22.846         | client: ADD_PLAYER 12 (Sonic89 [IT4LY], 001AAB69) status 2 team 1
+13:13:22.846         | client: ADD_PLAYER 13 (DeadagroUA [AUT], 00123C50) status 2 team 2
+13:13:22.846         | client: ADD_PLAYER 2 (Catbox [NASA], 000EE767) status 4 team 1
+13:13:22.852         | client: got init message (and 1st snapshot). ping 39
+13:13:24.059         | ====== level started:  'levels\area3\s1420_ceres3_asteroidcity' success ======
+13:13:24.059         | client: ADD_PLAYER 11 (damir5 [SPB], 0006D550) status 4 team 2
+13:13:24.059         | client: ADD_PLAYER 13 (DeadagroUA [AUT], 00123C50) status 4 team 2
+13:13:24.059         | client: ADD_PLAYER 8 (Sparax, 001B20D0) status 4 team 1
+13:13:24.059         | client: ADD_PLAYER 12 (Sonic89 [IT4LY], 001AAB69) status 4 team 1
+13:13:24.059         | client: ADD_PLAYER 5 (N3R086 [R4ge], 000D3966) status 4 team 2
+13:13:24.059         | client: ADD_PLAYER 0 (OblivionHammer, 0014CCD9) status 4 team 1
+13:13:24.059         | client: ADD_PLAYER 4 (gek1234 [steel], 000CE08C) status 4 team 1
+13:13:24.241  WARNING| frame 39689 gameGlobals.frameTimeReal is too large (0.132952)
+13:13:24.449         | client: ADD_PLAYER 1 (azzi55 [SPB], 000F5EE7) status 4 team 2
+13:13:24.512         | client: ADD_PLAYER 3 (MAKEDOHNA [exYU], 0016BEE2) status 4 team 2
+13:13:24.512         | client: ADD_PLAYER 6 (LeLionVert [CBR], 0004DE9B) status 4 team 1
+13:13:25.071         | client: ADD_PLAYER 9 (obcy71 [Zet], 00156B84) status 4 team 2
+13:13:52.429         | Environment setting 's1420_ceres3_asteroidcity' loaded
+13:13:53.829         | Environment setting 's1420_ceres3_asteroidcity' loaded
+13:13:54.177  WARNING| frame 44336 gameGlobals.frameTimeReal is too large (0.227014)
+13:13:54.361  WARNING| frame 44339 gameGlobals.frameTimeReal is too large (0.102237)
+13:14:06.551  WARNING| Client: received Entity sync notification #0 for entity with netId 293, but entity doesn't exist(def 'SpellAuraEntity')
+13:14:21.770  WARNING| Client: received Entity sync notification #0 for entity with netId 830, but entity doesn't exist(def 'SpellAuraEntity')
+13:14:32.940  WARNING| Client: received Entity sync notification #0 for entity with netId 1116, but entity doesn't exist(def 'Projectile_Artillery')
+13:14:32.940  WARNING| client: removing entity netId 1116 but it doesn't exist (def 'Projectile_Artillery')
+13:15:06.156  WARNING| Client: received Entity sync notification #0 for entity with netId 1987, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:06.156  WARNING| client: removing entity netId 1987 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:06.829  WARNING| Client: received Entity sync notification #0 for entity with netId 1999, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:06.829  WARNING| client: removing entity netId 1999 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:14.358  WARNING| Client: received Entity sync notification #0 for entity with netId 2151, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:14.358  WARNING| client: removing entity netId 2151 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:15:17.382  WARNING| Client: received Entity sync notification #0 for entity with netId 2236, but entity doesn't exist(def 'Projectile_Artillery')
+13:15:17.382  WARNING| client: removing entity netId 2236 but it doesn't exist (def 'Projectile_Artillery')
+13:15:17.833  WARNING| client: removing entity netId 2248 but it doesn't exist (def 'SpellAuraEntity')
+13:15:19.853  WARNING| Client: received Entity sync notification #0 for entity with netId 2325, but entity doesn't exist(def 'SpellAuraEntity')
+13:15:22.102  WARNING| Client: received Entity sync notification #0 for entity with netId 2424, but entity doesn't exist(def 'Projectile_Artillery')
+13:15:22.102  WARNING| client: removing entity netId 2424 but it doesn't exist (def 'Projectile_Artillery')
+13:15:25.186  WARNING| Client: received Entity sync notification #0 for entity with netId 2602, but entity doesn't exist(def 'SpellAuraEntity')
+13:15:25.972  WARNING| Client: received Entity sync notification #0 for entity with netId 2642, but entity doesn't exist(def 'SpellAuraEntity')
+13:15:31.974  WARNING| client: removing entity netId 2836 but it doesn't exist (def 'SpellAuraEntity')
+13:15:38.101  WARNING| Client: received Entity sync notification #0 for entity with netId 3041, but entity doesn't exist(def 'SpellAuraEntity')
+13:15:59.694  WARNING| Client: received Entity sync notification #0 for entity with netId 3620, but entity doesn't exist(def 'SpellAuraEntity')
+13:16:07.390  WARNING| script (ui\scripts\windows\hudefficiencywnd.lua@0): UI.HudEfficiencyDockedWnd:AddRecord()[ERROR]: cannot show record right now
+13:16:14.846  WARNING| Client: received Entity sync notification #0 for entity with netId 4118, but entity doesn't exist(def 'SpellAuraEntity')
+13:16:24.616         | Environment setting 's1420_ceres3_asteroidcity' loaded
+13:16:26.294         | Environment setting 's1420_ceres3_asteroidcity' loaded
+13:16:46.458  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:16:46.511  WARNING| Client: received Entity sync notification #0 for entity with netId 4929, but entity doesn't exist(def 'SpellAuraEntity')
+13:16:47.245  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:16:47.245  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:16:47.576  WARNING| Client: received Entity sync notification #0 for entity with netId 4984, but entity doesn't exist(def 'SpellAuraEntity')
+13:16:47.578  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:16:47.578  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:16:48.144  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:16:48.254  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:16:48.706  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:16:54.650  WARNING| frame 65271 gameGlobals.frameTimeReal is too large (0.106997)
+13:17:15.567  WARNING| Client: received Entity sync notification #0 for entity with netId 5675, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:15.567  WARNING| client: removing entity netId 5675 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:15.911  WARNING| Client: received Entity sync notification #0 for entity with netId 5684, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:15.911  WARNING| client: removing entity netId 5684 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:16.239  WARNING| Client: received Entity sync notification #0 for entity with netId 5696, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:16.239  WARNING| client: removing entity netId 5696 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:17:18.770  WARNING| Client: received Entity sync notification #0 for entity with netId 5815, but entity doesn't exist(def 'SpellAuraEntity')
+13:17:18.938  WARNING| Client: received Entity sync notification #0 for entity with netId 5819, but entity doesn't exist(def 'SpellAuraEntity')
+13:17:27.299  WARNING| Client: received Entity sync notification #0 for entity with netId 6207, but entity doesn't exist(def 'SpellAuraEntity')
+13:17:27.474  WARNING| Client: received Entity sync notification #0 for entity with netId 6212, but entity doesn't exist(def 'SpellAuraEntity')
+13:17:51.258  WARNING| Client: received Entity sync notification #0 for entity with netId 7139, but entity doesn't exist(def 'SpellAuraEntity')
+13:18:03.206  WARNING| Client: received Entity sync notification #0 for entity with netId 7645, but entity doesn't exist(def 'SpellAuraEntity')
+13:18:14.045  WARNING| Client: received Entity sync notification #0 for entity with netId 8388, but entity doesn't exist(def 'SpellAuraEntity')
+13:18:15.060  WARNING| Client: received Entity sync notification #0 for entity with netId 8447, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:15.060  WARNING| client: removing entity netId 8447 but it doesn't exist (def 'Projectile_Artillery')
+13:18:15.502  WARNING| Client: received Entity sync notification #0 for entity with netId 8472, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:15.502  WARNING| client: removing entity netId 8472 but it doesn't exist (def 'Projectile_Artillery')
+13:18:16.292  WARNING| Client: received Entity sync notification #0 for entity with netId 8494, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:16.292  WARNING| client: removing entity netId 8494 but it doesn't exist (def 'Projectile_Artillery')
+13:18:21.117  WARNING| Client: received Entity sync notification #0 for entity with netId 8638, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:21.117  WARNING| client: removing entity netId 8638 but it doesn't exist (def 'Projectile_Artillery')
+13:18:21.454  WARNING| Client: received Entity sync notification #0 for entity with netId 8641, but entity doesn't exist(def 'SpellAuraEntity')
+13:18:23.140  WARNING| Client: received Entity sync notification #0 for entity with netId 8671, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:23.140  WARNING| client: removing entity netId 8671 but it doesn't exist (def 'Projectile_Artillery')
+13:18:25.614  WARNING| Client: received Entity sync notification #0 for entity with netId 8689, but entity doesn't exist(def 'Projectile_Artillery')
+13:18:25.615  WARNING| client: removing entity netId 8689 but it doesn't exist (def 'Projectile_Artillery')
+13:18:33.016  WARNING| Client: received Entity sync notification #0 for entity with netId 8805, but entity doesn't exist(def 'SpellAuraEntity')
+13:19:10.150  WARNING| Client: received Entity sync notification #0 for entity with netId 9358, but entity doesn't exist(def 'SpellAuraEntity')
+13:19:34.727  WARNING| Client: received Entity sync notification #0 for entity with netId 9794, but entity doesn't exist(def 'SpellAuraEntity')
+13:19:49.094  WARNING| Client: received Entity sync notification #0 for entity with netId 10230, but entity doesn't exist(def 'SpellAuraEntity')
+13:19:57.067  WARNING| Client: received Entity sync notification #0 for entity with netId 10496, but entity doesn't exist(def 'SpellAuraEntity')
+13:20:15.760  WARNING| Client: received Entity sync notification #0 for entity with netId 11120, but entity doesn't exist(def 'SpellAuraEntity')
+13:20:28.391  WARNING| Client: received Entity sync notification #0 for entity with netId 11539, but entity doesn't exist(def 'SpellAuraEntity')
+13:20:36.920  WARNING| Client: received Entity sync notification #0 for entity with netId 11724, but entity doesn't exist(def 'SpellAuraEntity')
+13:20:38.938  WARNING| Client: received Entity sync notification #0 for entity with netId 11739, but entity doesn't exist(def 'SpellAuraEntity')
+13:20:58.308  WARNING| Client: received Entity sync notification #0 for entity with netId 12029, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:09.539  WARNING| Client: received Entity sync notification #0 for entity with netId 12482, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:22.115  WARNING| Client: received Entity sync notification #0 for entity with netId 12891, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:35.080  WARNING| Client: received Entity sync notification #0 for entity with netId 13261, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:50.960  WARNING| Client: received Entity sync notification #0 for entity with netId 13855, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:53.940  WARNING| Client: received Entity sync notification #0 for entity with netId 13948, but entity doesn't exist(def 'SpellAuraEntity')
+13:21:59.879  WARNING| Client: received Entity sync notification #0 for entity with netId 14063, but entity doesn't exist(def 'SpellAuraEntity')
+13:22:19.067  WARNING| client: removing entity netId 14734 but it doesn't exist (def 'SpellAuraEntity')
+13:22:19.067  WARNING| client: removing entity netId 14735 but it doesn't exist (def 'SpellAuraEntity')
+13:22:25.184  WARNING| Client: received Entity sync notification #0 for entity with netId 14843, but entity doesn't exist(def 'SpellAuraEntity')
+13:22:34.170         | client: player 1 leave game
+13:22:42.596  WARNING| Client: received Entity sync notification #0 for entity with netId 15154, but entity doesn't exist(def 'SpellAuraEntity')
+13:23:03.142  WARNING| script (ui\scripts\windows\hudefficiencywnd.lua@0): UI.HudEfficiencyDockedWnd:AddRecord()[ERROR]: cannot show record right now
+13:23:09.880  WARNING| Client: received Entity sync notification #0 for entity with netId 15738, but entity doesn't exist(def 'SpellAuraEntity')
+13:23:25.141  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:23:25.640  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:23:26.153  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:23:26.153  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:23:27.052  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:23:27.052  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:23:30.748  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:23:30.748  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "ShieldEmitter_T5_Mk3" into string; it has no corresponding values
+13:23:31.086  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:23:31.205  WARNING| script (ui\scripts\work\uigamefuncs.lua@0): UI:FillDescWithParams()[ERROR]: cannot convert parameter "period" for "RemoteRepairDrones_T5_Rare" into string; it has no corresponding values
+13:23:32.263  WARNING| Client: received Entity sync notification #0 for entity with netId 16261, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:23:32.263  WARNING| client: removing entity netId 16261 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:23:33.279  WARNING| Client: received Entity sync notification #0 for entity with netId 16276, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:23:33.280  WARNING| client: removing entity netId 16276 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:23:33.615  WARNING| Client: received Entity sync notification #0 for entity with netId 16282, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:23:33.615  WARNING| client: removing entity netId 16282 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Mk1')
+13:24:01.336  WARNING| Client: received Entity sync notification #0 for entity with netId 17129, but entity doesn't exist(def 'SpellAuraEntity')
+13:24:02.512  WARNING| Client: received Entity sync notification #0 for entity with netId 17205, but entity doesn't exist(def 'SpellAuraEntity')
+13:24:05.491  WARNING| Client: received Entity sync notification #0 for entity with netId 17301, but entity doesn't exist(def 'SpellAuraEntity')
+13:24:17.216         | client: player 5 leave game
+13:24:18.452         | client: player 11 leave game
+13:24:19.407         | client: player 7 leave game
+13:24:20.246         | client: player 3 leave game
+13:24:30.568         | client: player 13 leave game
+13:24:32.310         | client: player 12 leave game
+13:24:33.881         | client: player 8 leave game
+13:24:37.526         | client: player 6 leave game
+13:24:38.182         | client: avgPing 39.6/1.1; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%
+13:24:38.182         | client: connection closed. DR_CLIENT_QUIT
+13:24:38.182         | Network stats (bytes per second): avg pushed 892, max pushed 1245, avg sent 1907, max sent 2349, avg received 5775, max received 8599
+13:24:38.272         | ReplayManager: stopping activity due to map change
+13:24:38.464         | ====== starting level: 'levels\mainmenu\mm_federation'  ======
+13:24:38.599         | Environment setting 'mm_federation' loaded
+13:24:39.159         | Profile 'Deluvas' saved successfully in 'c:\users\deluvas\documents\my games\starconflict\profiles\0001.prfl'
+13:24:39.293         | ====== level started:  'levels\mainmenu\mm_federation' success ======
+13:24:39.293         | Environment setting 'mm_federation' loaded
+13:24:39.428  WARNING| frame 120146 gameGlobals.frameTimeReal is too large (0.109163)
+13:25:14.945  WARNING| m_bufferizedUICalls delivery took 5.5 ms
+13:25:24.712  WARNING| m_bufferizedUICalls delivery took 7.0 ms
+13:25:34.539         | disconnected from masterServer with reason 41
+13:25:34.539         | Closed connection with masterServer addr 91.230.61.67:3802, reason 41
+13:25:34.547         | MasterServer_RequestServerStatus
+13:25:34.547         | MasterServer_RequestServerVersion
+13:25:34.547         | MasterServer_RequestNewsFeed
+13:25:34.547         | MasterServer_RequestServerAddresess
+13:25:34.750         | MasterServer_OnServerStatus: status code 0, server status 1
+13:25:34.751         | MasterServer_OnServerVersion: status code 0, version 1.1.6a.72455, my version is 1.1.6a.72455
+13:25:34.751         | MasterServer_OnServerAddresess: status code 0
+13:25:34.778         | MasterServer_OnNewsFeed: status code 0
+13:25:35.874         | MasterServerEndpoint: connecting to load balancer at 91.230.61.97:3801 [0]...
+13:25:35.935         | MasterServerEndpoint: connected to load balancer 91.230.61.97:3801, awaiting shard address...
+13:25:36.006         | Applying LB cvars...
+13:25:36.006         | 'mss_playerBoughtVesselAdCooldown' <- '20.000'
+13:25:36.007         | 'clan_shipBuildHighRanks' <- '10.000'
+13:25:36.007         | 'sv_dailyWinPvpExpRewardCf' <- '2.000'
+13:25:36.007         | 'clan_shipPartsCanBuild' <- '4.000'
+13:25:36.007         | 'sv_dailyWinPveExpRewardCf' <- '2.000'
+13:25:36.007         | 'event_claws' <- '0.000'
+13:25:36.007         | 'mss_playerBoughtVesselAdHiBrace' <- '4.000'
+13:25:36.007         | 'clan_shipUpgradeCanBuild' <- '2.000'
+13:25:36.007         | 'cl_showBiomorphsKilledCounter' <- '0.000'
+13:25:36.007         | 'mss_playerBoughtVesselAdLoBrace' <- '-4.000'
+13:25:36.007         | MasterServerEndpoint: received shard address (91.230.61.14:3802)
+13:25:36.007         | MasterServerEndpoint: received chat server address (91.230.61.100:3815)
+13:25:36.007         | disconnected from masterServer with reason 0
+13:25:36.007         | Disconnecting from load balancer
+13:25:36.071         | MasterServerEndpoint: connected to shard 91.230.61.14:3802, awaiting auth request...
+13:25:37.339  WARNING| Player is already in game! Nothing will work besides accepting or leaving the game (TODO)
+13:25:37.339         | MasterServerEndpoint: Successfully login to masterServer 91.230.61.14:3802, uid 000EE767, nick Catbox, spaceStationZoneId 2
+13:25:37.432         | StoreSvc: received store hash, its 941c4093
+13:25:37.432         | StoreSvc: loading store cache
+13:25:37.433         | StoreSvc: cache signature matches, loading the store from cache
+13:25:37.433         | Game store size : 427.99316 Kb
+13:25:37.440         | StoreSvc: loading base store took 7.0 ms, but there is a patch probs...
+13:25:37.517         | Store patch size : 0.33301 Kb
+13:25:37.517         | Store patch was packed, unpacked size : 0.49707 Kb
+13:25:37.517         | StoreSvc: proceeding to special values loading...
+13:25:37.724  WARNING| m_bufferizedUICalls delivery took 6.5 ms
+13:25:38.005  WARNING| m_bufferizedUICalls delivery took 80.5 ms
+13:25:38.015  WARNING| frame 126356 gameGlobals.frameTimeReal is too large (0.136038)
+13:27:07.879  WARNING| MasterServer: Timeout on request 'AC_STEAM_USER_INFO(140)'
+13:27:48.926  WARNING| Re-requesting vessel information due to m_nextVesselsLockRecheck <= 0.0f (frameTimeReal = 0.033333)
+13:27:49.275  WARNING| m_bufferizedUICalls delivery took 47.3 ms
+13:27:50.446  WARNING| ^1ScrollWnd::SetRange error - invalid range (wndName=ChatNEW_ScrollBarWnd, min=14.000001, max=14.000000)
+13:27:53.809         | {
+13:27:53.809         | 	"arcade": 1.000
+13:27:53.809         | 	"region": 0.000
+13:27:53.809         | }
+13:27:54.310         | MasterServerEndpoint: enter matchmaking queue with mmvalue 2569
+13:27:56.430  WARNING| MasterServerEndpoint: leave matchmaking queue ( but will join the game soon )
+13:27:57.863  WARNING| m_bufferizedUICalls delivery took 37.1 ms
+13:27:58.203         | MasterServerSession: connect to dedicated server, session 12558920, at addr 91.230.61.25|35018
+13:27:58.230         | client: start connecting to 91.230.61.25|35018...
+13:27:58.422         | client: connected to 91.230.61.25|35018, MTU 1430. setting up session...
+13:27:58.529         | client. send version check message (979 bytes)
+13:27:58.790         | client. got onConnect init message. total 15988 bytes
+13:27:58.791         | client: ADD_PLAYER 0 (Gerodor [], 001B2546) status 2 team 1
+13:27:58.791         | client: ADD_PLAYER 1 (grennix, 001C8EA4) status 6 team 2
+13:27:58.791         | client: ADD_PLAYER 2 (Seraphym [], 001220A1) status 6 team 1
+13:27:58.791         | client: ADD_PLAYER 3 (penetrator [], 0019948D) status 6 team 2
+13:27:58.791         | client: ADD_PLAYER 4 (Vinssent, 00136F02) status 2 team 1
+13:27:58.791         | client: ADD_PLAYER 5 (WANTED, 000AFF85) status 6 team 2
+13:27:58.791         | client: ADD_PLAYER 6 (SIMON79 [], 001482DD) status 2 team 1
+13:27:58.791         | client: ADD_PLAYER 7 (konuk2015, 0017DA5C) status 2 team 2
+13:27:58.791         | client: ADD_PLAYER 8 (NaJeep, 00028727) status 2 team 1
+13:27:58.791         | client: ADD_PLAYER 9 (CorvusC0RAX [], 001047F7) status 2 team 2
+13:27:58.791         | client: ADD_PLAYER 10 (niko141280 [], 00155CB6) status 6 team 1
+13:27:58.791         | client: ADD_PLAYER 11 (Catbox [NASA], 000EE767) status 1 team 2
+13:27:58.791         | client: server assigned id 11
+13:27:58.791         | client: got level load message 's1340_thar_aliendebris13'
+13:27:58.803         | ReplayManager: stopping activity due to map change
+13:27:58.923         | ====== starting level: 'levels\area2\s1340_thar_aliendebris13' KingOfTheHill client ======
+13:27:59.370         | Environment setting 's1340_thar_aliendebris13' loaded
+13:27:59.406         | client: send ready message
+13:27:59.492         | client: ADD_PLAYER 0 (Gerodor [BG], 001B2546) status 2 team 1
+13:27:59.492         | client: ADD_PLAYER 1 (grennix, 001C8EA4) status 2 team 2
+13:27:59.492         | client: ADD_PLAYER 2 (Seraphym [NMS], 001220A1) status 2 team 1
+13:27:59.493         | client: ADD_PLAYER 3 (penetrator [WPK], 0019948D) status 4 team 2
+13:27:59.493         | client: ADD_PLAYER 4 (Vinssent, 00136F02) status 2 team 1
+13:27:59.493         | client: ADD_PLAYER 5 (WANTED, 000AFF85) status 2 team 2
+13:27:59.493         | client: ADD_PLAYER 6 (SIMON79 [NL], 001482DD) status 4 team 1
+13:27:59.493         | client: ADD_PLAYER 7 (konuk2015, 0017DA5C) status 2 team 2
+13:27:59.493         | client: ADD_PLAYER 8 (NaJeep, 00028727) status 4 team 1
+13:27:59.493         | client: ADD_PLAYER 9 (CorvusC0RAX [IGU], 001047F7) status 2 team 2
+13:27:59.493         | client: ADD_PLAYER 10 (niko141280 [SRO], 00155CB6) status 6 team 1
+13:27:59.493         | client: ADD_PLAYER 11 (Catbox [NASA], 000EE767) status 2 team 2
+13:27:59.493         | client: ADD_PLAYER 11 (Catbox [NASA], 000EE767) status 4 team 2
+13:27:59.495         | client: got init message (and 1st snapshot). ping 60
+13:28:00.797         | ====== level started:  'levels\area2\s1340_thar_aliendebris13' success ======
+13:28:00.797         | client: ADD_PLAYER 4 (Vinssent, 00136F02) status 4 team 1
+13:28:00.797         | client: ADD_PLAYER 7 (konuk2015, 0017DA5C) status 4 team 2
+13:28:00.797         | client: ADD_PLAYER 5 (WANTED, 000AFF85) status 4 team 2
+13:28:00.797         | client: ADD_PLAYER 2 (Seraphym [NMS], 001220A1) status 4 team 1
+13:28:00.797         | client: ADD_PLAYER 1 (grennix, 001C8EA4) status 4 team 2
+13:28:00.933         | client: ADD_PLAYER 0 (Gerodor [BG], 001B2546) status 4 team 1
+13:28:00.943  WARNING| frame 146706 gameGlobals.frameTimeReal is too large (0.107134)
+13:28:01.434         | client: ADD_PLAYER 9 (CorvusC0RAX [IGU], 001047F7) status 4 team 2
+13:28:08.334         | client: ADD_PLAYER 10 (niko141280 [SRO], 00155CB6) status 4 team 1
+13:28:29.318         | Environment setting 's1340_thar_aliendebris13' loaded
+13:28:30.880         | Environment setting 's1340_thar_aliendebris13' loaded
+13:29:12.613  WARNING| Client: received Entity sync notification #0 for entity with netId 2037, but entity doesn't exist(def 'SpellAuraEntity')
+13:29:18.840  WARNING| Client: received Entity sync notification #0 for entity with netId 2367, but entity doesn't exist(def 'SpellAuraEntity')
+13:29:19.685  WARNING| Client: received Entity sync notification #0 for entity with netId 2414, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:29:19.685  WARNING| client: removing entity netId 2414 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:29:21.306  WARNING| Client: received Entity sync notification #0 for entity with netId 2494, but entity doesn't exist(def 'Projectile_Artillery')
+13:29:21.306  WARNING| client: removing entity netId 2494 but it doesn't exist (def 'Projectile_Artillery')
+13:29:21.757  WARNING| Client: received Entity sync notification #0 for entity with netId 2526, but entity doesn't exist(def 'Projectile_Artillery')
+13:29:21.757  WARNING| client: removing entity netId 2526 but it doesn't exist (def 'Projectile_Artillery')
+13:29:23.212  WARNING| Client: received Entity sync notification #0 for entity with netId 2629, but entity doesn't exist(def 'Projectile_Artillery')
+13:29:23.212  WARNING| client: removing entity netId 2629 but it doesn't exist (def 'Projectile_Artillery')
+13:29:37.524         | client: player 4 leave game
+13:30:07.454  WARNING| Client: received Entity sync notification #0 for entity with netId 4349, but entity doesn't exist(def 'SpellAuraEntity')
+13:30:27.918  WARNING| Client: received Entity sync notification #0 for entity with netId 5429, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.918  WARNING| client: removing entity netId 5429 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| Client: received Entity sync notification #0 for entity with netId 5418, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| client: removing entity netId 5418 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| Client: received Entity sync notification #0 for entity with netId 5419, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| client: removing entity netId 5419 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| Client: received Entity sync notification #0 for entity with netId 5420, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| client: removing entity netId 5420 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| Client: received Entity sync notification #0 for entity with netId 5421, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.919  WARNING| client: removing entity netId 5421 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| Client: received Entity sync notification #0 for entity with netId 5422, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| client: removing entity netId 5422 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| Client: received Entity sync notification #0 for entity with netId 5423, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| client: removing entity netId 5423 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| Client: received Entity sync notification #0 for entity with netId 5424, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| client: removing entity netId 5424 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| Client: received Entity sync notification #0 for entity with netId 5425, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| client: removing entity netId 5425 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| Client: received Entity sync notification #0 for entity with netId 5426, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.920  WARNING| client: removing entity netId 5426 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.921  WARNING| Client: received Entity sync notification #0 for entity with netId 5427, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.921  WARNING| client: removing entity netId 5427 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:27.921  WARNING| Client: received Entity sync notification #0 for entity with netId 5428, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:30:27.921  WARNING| client: removing entity netId 5428 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:30:29.995  WARNING| Client: received Entity sync notification #0 for entity with netId 5524, but entity doesn't exist(def 'SpellAuraEntity')
+13:30:44.644  WARNING| Client: received Entity sync notification #0 for entity with netId 5721, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:44.644  WARNING| client: removing entity netId 5721 but it doesn't exist (def 'Projectile_Artillery')
+13:30:45.316  WARNING| Client: received Entity sync notification #0 for entity with netId 5724, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:45.316  WARNING| client: removing entity netId 5724 but it doesn't exist (def 'Projectile_Artillery')
+13:30:47.228  WARNING| Client: received Entity sync notification #0 for entity with netId 5732, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:47.228  WARNING| client: removing entity netId 5732 but it doesn't exist (def 'Projectile_Artillery')
+13:30:53.176  WARNING| Client: received Entity sync notification #0 for entity with netId 5775, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:53.176  WARNING| client: removing entity netId 5775 but it doesn't exist (def 'Projectile_Artillery')
+13:30:53.851  WARNING| Client: received Entity sync notification #0 for entity with netId 5777, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:53.851  WARNING| client: removing entity netId 5777 but it doesn't exist (def 'Projectile_Artillery')
+13:30:55.121         | Environment setting 's1340_thar_aliendebris13' loaded
+13:30:56.327  WARNING| Client: received Entity sync notification #0 for entity with netId 5786, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:56.327  WARNING| client: removing entity netId 5786 but it doesn't exist (def 'Projectile_Artillery')
+13:30:58.909  WARNING| Client: received Entity sync notification #0 for entity with netId 5796, but entity doesn't exist(def 'Projectile_Artillery')
+13:30:58.909  WARNING| client: removing entity netId 5796 but it doesn't exist (def 'Projectile_Artillery')
+13:31:10.298  WARNING| Client: received Entity sync notification #0 for entity with netId 6001, but entity doesn't exist(def 'SpellAuraEntity')
+13:31:10.354  WARNING| Client: received Entity sync notification #0 for entity with netId 6002, but entity doesn't exist(def 'SpellAuraEntity')
+13:31:11.582  WARNING| m_bufferizedUICalls delivery took 21.7 ms
+13:31:15.635  WARNING| Client: received Entity sync notification #0 for entity with netId 6087, but entity doesn't exist(def 'SpellAuraEntity')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6291, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6291 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6292, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6292 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6293, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6293 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6294, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6294 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6295, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6295 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6296, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6296 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6297, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6297 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| Client: received Entity sync notification #0 for entity with netId 6298, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.116  WARNING| client: removing entity netId 6298 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6299, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6299 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6300, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6300 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6301, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6301 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6302, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6302 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6304, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6304 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6308, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6308 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| Client: received Entity sync notification #0 for entity with netId 6314, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:31:41.117  WARNING| client: removing entity netId 6314 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:31:50.885  WARNING| script (ui\scripts\windows\hudefficiencywnd.lua@0): UI.HudEfficiencyDockedWnd:AddRecord()[ERROR]: cannot show record right now
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6916, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6916 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6917, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6917 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6918, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6918 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6919, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6919 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6920, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6920 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| Client: received Entity sync notification #0 for entity with netId 6921, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.808  WARNING| client: removing entity netId 6921 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| Client: received Entity sync notification #0 for entity with netId 6922, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| client: removing entity netId 6922 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| Client: received Entity sync notification #0 for entity with netId 6923, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| client: removing entity netId 6923 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| Client: received Entity sync notification #0 for entity with netId 6924, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| client: removing entity netId 6924 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| Client: received Entity sync notification #0 for entity with netId 6925, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| client: removing entity netId 6925 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| Client: received Entity sync notification #0 for entity with netId 6926, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.809  WARNING| client: removing entity netId 6926 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:06.810  WARNING| Client: received Entity sync notification #0 for entity with netId 6927, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:06.810  WARNING| client: removing entity netId 6927 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:08.493  WARNING| Client: received Entity sync notification #0 for entity with netId 6997, but entity doesn't exist(def 'SpellAuraEntity')
+13:32:29.707         | Environment setting 's1340_thar_aliendebris13' loaded
+13:32:34.854  WARNING| Client: received Entity sync notification #0 for entity with netId 7617, but entity doesn't exist(def 'SpellAuraEntity')
+13:32:35.365  WARNING| Client: received Entity sync notification #0 for entity with netId 7644, but entity doesn't exist(def 'SpellAuraEntity')
+13:32:38.558  WARNING| Client: received Entity sync notification #0 for entity with netId 7850, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.558  WARNING| client: removing entity netId 7850 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| Client: received Entity sync notification #0 for entity with netId 7851, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| client: removing entity netId 7851 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| Client: received Entity sync notification #0 for entity with netId 7852, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| client: removing entity netId 7852 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| Client: received Entity sync notification #0 for entity with netId 7853, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| client: removing entity netId 7853 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| Client: received Entity sync notification #0 for entity with netId 7854, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| client: removing entity netId 7854 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| Client: received Entity sync notification #0 for entity with netId 7855, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.559  WARNING| client: removing entity netId 7855 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| Client: received Entity sync notification #0 for entity with netId 7856, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| client: removing entity netId 7856 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| Client: received Entity sync notification #0 for entity with netId 7857, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| client: removing entity netId 7857 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| Client: received Entity sync notification #0 for entity with netId 7858, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| client: removing entity netId 7858 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| Client: received Entity sync notification #0 for entity with netId 7859, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| client: removing entity netId 7859 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| Client: received Entity sync notification #0 for entity with netId 7860, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.560  WARNING| client: removing entity netId 7860 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:38.561  WARNING| Client: received Entity sync notification #0 for entity with netId 7861, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:38.561  WARNING| client: removing entity netId 7861 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.924  WARNING| Client: received Entity sync notification #0 for entity with netId 7974, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.924  WARNING| client: removing entity netId 7974 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.924  WARNING| Client: received Entity sync notification #0 for entity with netId 7975, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.924  WARNING| client: removing entity netId 7975 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| Client: received Entity sync notification #0 for entity with netId 7979, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| client: removing entity netId 7979 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| Client: received Entity sync notification #0 for entity with netId 7980, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| client: removing entity netId 7980 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| Client: received Entity sync notification #0 for entity with netId 7983, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| client: removing entity netId 7983 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| Client: received Entity sync notification #0 for entity with netId 7984, but entity doesn't exist(def 'Projectile_Fly_Gun')
+13:32:41.925  WARNING| client: removing entity netId 7984 but it doesn't exist (def 'Projectile_Fly_Gun')
+13:32:55.948  WARNING| Client: received Entity sync notification #0 for entity with netId 8296, but entity doesn't exist(def 'SpellAuraEntity')
+13:32:57.297  WARNING| Client: received Entity sync notification #0 for entity with netId 8332, but entity doesn't exist(def 'Projectile_Artillery')
+13:32:57.297  WARNING| client: removing entity netId 8332 but it doesn't exist (def 'Projectile_Artillery')
+13:33:09.390         | client: player 8 leave game
+13:33:09.390         | client: player 6 leave game
+13:33:09.613         | client: player 2 leave game
+13:33:12.364         | client: player 0 leave game
+13:33:12.808  WARNING| m_bufferizedUICalls delivery took 19.4 ms
+13:33:14.044         | client: player 10 leave game
+13:33:14.233  WARNING| m_bufferizedUICalls delivery took 19.8 ms
+13:33:21.847         | client: avgPing 61.1/0.8; avgPacketLoss 0.0/0.1%; avgSnapshotLoss 0.2/0.4%
+13:33:21.847         | client: connection closed. DR_CLIENT_QUIT
+13:33:21.847         | Network stats (bytes per second): avg pushed 784, max pushed 1223, avg sent 1702, max sent 2249, avg received 4797, max received 9431
+13:33:21.952         | ReplayManager: stopping activity due to map change
+13:33:22.098         | ====== starting level: 'levels\mainmenu\mm_federation'  ======
+13:33:22.224         | Environment setting 'mm_federation' loaded
+13:33:22.781         | ====== level started:  'levels\mainmenu\mm_federation' success ======
+13:33:22.781         | Environment setting 'mm_federation' loaded
+13:33:22.915  WARNING| frame 185303 gameGlobals.frameTimeReal is too large (0.106801)
+13:33:25.677  WARNING| m_bufferizedUICalls delivery took 18.6 ms
+13:33:30.790         | {
+13:33:30.790         | 	"arcade": 1.000
+13:33:30.790         | 	"region": 0.000
+13:33:30.790         | }
+13:33:31.271         | MasterServerEndpoint: enter matchmaking queue with mmvalue 2569
+13:37:32.641         | SocialList: watch 0014E3CE added
+13:37:36.043         | SocialList: watch 0014E3CE removed
+13:38:17.497         | SocialList: watch 00103C94 added
+13:38:59.527         | MasterServerEndpoint: leave matchmaking queue
+13:38:59.536  WARNING| m_bufferizedUICalls delivery took 8.7 ms
+13:39:00.304         | {
+13:39:00.304         | 	"arcade": 1.000
+13:39:00.304         | 	"region": 0.000
+13:39:00.304         | }
+13:39:00.824         | MasterServerEndpoint: enter matchmaking queue with mmvalue 2569
+13:39:37.307  WARNING| m_bufferizedUICalls delivery took 6.9 ms
+13:39:49.530  WARNING| MasterServerEndpoint: leave matchmaking queue ( but will join the game soon )
+13:39:52.755  WARNING| m_bufferizedUICalls delivery took 37.7 ms
+13:39:53.250  WARNING| m_bufferizedUICalls delivery took 7.1 ms
+13:39:53.278         | MasterServerSession: connect to dedicated server, session 12559069, at addr 5.153.37.200|35002
+13:39:53.305         | client: start connecting to 5.153.37.200|35002...
+13:39:53.433         | client: connected to 5.153.37.200|35002, MTU 1430. setting up session...
+13:39:53.517         | client. send version check message (965 bytes)
+13:39:53.680         | client. got onConnect init message. total 16144 bytes
+13:39:53.681         | client: ADD_PLAYER 0 (Gerodor [BG], 001B2546) status 6 team 1
+13:39:53.681         | client: ADD_PLAYER 1 (Sonic89 [], 001AAB69) status 6 team 2
+13:39:53.681         | client: ADD_PLAYER 2 (Batja1967, 0019A427) status 2 team 1
+13:39:53.681         | client: ADD_PLAYER 3 (azzi55 [], 000F5EE7) status 6 team 2
+13:39:53.681         | client: ADD_PLAYER 4 (LocoPadre [], 00072A26) status 2 team 1
+13:39:53.681         | client: ADD_PLAYER 5 (NaJeep, 00028727) status 6 team 2
+13:39:53.681         | client: ADD_PLAYER 6 (merdosa [], 0012BB32) status 6 team 1
+13:39:53.681         | client: ADD_PLAYER 7 (WARex [], 0010454B) status 6 team 2
+13:39:53.681         | client: ADD_PLAYER 8 (KL9Ksa [], 000ECCA7) status 6 team 1
+13:39:53.681         | client: ADD_PLAYER 9 (Catbox [NASA], 000EE767) status 1 team 2
+13:39:53.681         | client: ADD_PLAYER 10 (Vinssent, 00136F02) status 6 team 1
+13:39:53.681         | client: ADD_PLAYER 11 (Gizmomac [], 00042896) status 6 team 2
+13:39:53.681         | client: server assigned id 9
+13:39:53.681         | client: got level load message 's1347_livestation'
+13:39:53.688  WARNING| m_bufferizedUICalls delivery took 7.4 ms
+13:39:53.696         | ReplayManager: stopping activity due to map change
+13:39:53.805         | ====== starting level: 'levels\area2\s1347_livestation' Control client ======
+13:39:54.257         | Environment setting 's1347_livestation' loaded
+13:39:54.316         | client: send ready message
+13:39:54.430         | client: ADD_PLAYER 0 (Gerodor [BG], 001B2546) status 2 team 1
+13:39:54.430         | client: ADD_PLAYER 1 (Sonic89 [IT4LY], 001AAB69) status 2 team 2
+13:39:54.430         | client: ADD_PLAYER 2 (Batja1967, 0019A427) status 2 team 1
+13:39:54.430         | client: ADD_PLAYER 3 (azzi55 [SPB], 000F5EE7) status 2 team 2
+13:39:54.430         | client: ADD_PLAYER 4 (LocoPadre [SALT], 00072A26) status 2 team 1
+13:39:54.430         | client: ADD_PLAYER 5 (NaJeep, 00028727) status 2 team 2
+13:39:54.431         | client: ADD_PLAYER 6 (merdosa [BAX], 0012BB32) status 2 team 1
+13:39:54.431         | client: ADD_PLAYER 7 (WARex [KPN], 0010454B) status 2 team 2
+13:39:54.431         | client: ADD_PLAYER 8 (KL9Ksa [SKY], 000ECCA7) status 2 team 1
+13:39:54.431         | client: ADD_PLAYER 9 (Catbox [NASA], 000EE767) status 2 team 2
+13:39:54.431         | client: ADD_PLAYER 10 (Vinssent, 00136F02) status 2 team 1
+13:39:54.431         | client: ADD_PLAYER 11 (Gizmomac [OWL], 00042896) status 2 team 2
+13:39:54.431         | client: ADD_PLAYER 9 (Catbox [NASA], 000EE767) status 4 team 2
+13:39:54.434         | client: got init message (and 1st snapshot). ping 37
+13:39:55.799         | ====== level started:  'levels\area2\s1347_livestation' success ======
+13:39:55.799         | client: ADD_PLAYER 4 (LocoPadre [SALT], 00072A26) status 4 team 1
+13:39:55.799         | client: ADD_PLAYER 1 (Sonic89 [IT4LY], 001AAB69) status 4 team 2
+13:39:55.799         | client: ADD_PLAYER 6 (merdosa [BAX], 0012BB32) status 4 team 1
+13:39:55.799         | client: ADD_PLAYER 11 (Gizmomac [OWL], 00042896) status 4 team 2
+13:39:55.799         | client: ADD_PLAYER 10 (Vinssent, 00136F02) status 4 team 1
+13:39:55.799         | client: ADD_PLAYER 5 (NaJeep, 00028727) status 4 team 2
+13:39:55.799         | client: ADD_PLAYER 7 (WARex [KPN], 0010454B) status 4 team 2
+13:39:55.973  WARNING| frame 234017 gameGlobals.frameTimeReal is too large (0.133047)
+13:39:56.216         | client: ADD_PLAYER 0 (Gerodor [BG], 001B2546) status 4 team 1
+13:39:56.893         | client: ADD_PLAYER 2 (Batja1967, 0019A427) status 4 team 1
+13:39:57.234         | client: ADD_PLAYER 3 (azzi55 [SPB], 000F5EE7) status 4 team 2
+13:39:57.902         | client: ADD_PLAYER 8 (KL9Ksa [SKY], 000ECCA7) status 4 team 1
+13:40:24.581         | Environment setting 's1347_livestation' loaded
+13:40:47.946  WARNING| Client: received Entity sync notification #0 for entity with netId 195, but entity doesn't exist(def 'SpellAuraEntity')
+13:40:50.697  WARNING| Client: received Entity sync notification #0 for entity with netId 317, but entity doesn't exist(def 'SpellAuraEntity')
+13:41:02.817  WARNING| Client: received Entity sync notification #0 for entity with netId 494, but entity doesn't exist(def 'SpellAuraEntity')
+13:41:16.536  WARNING| Client: received Entity sync notification #0 for entity with netId 1022, but entity doesn't exist(def 'SpellAuraEntity')
+13:41:43.277  WARNING| Client: received Entity sync notification #0 for entity with netId 1517, but entity doesn't exist(def 'SpellAuraEntity')
+13:41:43.835  WARNING| Client: received Entity sync notification #0 for entity with netId 1525, but entity doesn't exist(def 'SpellAuraEntity')
+13:41:54.430  WARNING| client: removing entity netId 1732 but it doesn't exist (def 'SpellAuraEntity')
+13:41:55.106  WARNING| client: removing entity netId 1755 but it doesn't exist (def 'SpellAuraEntity')
+13:42:05.362  WARNING| Client: received Entity sync notification #0 for entity with netId 2113, but entity doesn't exist(def 'SpellAuraEntity')
+13:42:06.655  WARNING| Client: received Entity sync notification #0 for entity with netId 2182, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:06.655  WARNING| client: removing entity netId 2182 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:07.724  WARNING| Client: received Entity sync notification #0 for entity with netId 2246, but entity doesn't exist(def 'SpellAuraEntity')
+13:42:08.114  WARNING| Client: received Entity sync notification #0 for entity with netId 2264, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:08.114  WARNING| client: removing entity netId 2264 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:10.526  WARNING| Client: received Entity sync notification #0 for entity with netId 2355, but entity doesn't exist(def 'SpellAuraEntity')
+13:42:18.110  WARNING| Client: received Entity sync notification #0 for entity with netId 2615, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:18.110  WARNING| client: removing entity netId 2615 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:19.334  WARNING| Client: received Entity sync notification #0 for entity with netId 2664, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:19.334  WARNING| client: removing entity netId 2664 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:23.388  WARNING| Client: received Entity sync notification #0 for entity with netId 2807, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:23.388  WARNING| client: removing entity netId 2807 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:23.718  WARNING| Client: received Entity sync notification #0 for entity with netId 2814, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:23.718  WARNING| client: removing entity netId 2814 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:24.838  WARNING| Client: received Entity sync notification #0 for entity with netId 2847, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:24.838  WARNING| client: removing entity netId 2847 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:42:29.507  WARNING| Client: received Entity sync notification #0 for entity with netId 2979, but entity doesn't exist(def 'SpellAuraEntity')
+13:42:30.122  WARNING| Client: received Entity sync notification #0 for entity with netId 2998, but entity doesn't exist(def 'SpellAuraEntity')
+13:42:30.123  WARNING| client: removing entity netId 2998 but it doesn't exist (def 'SpellAuraEntity')
+13:43:07.845  WARNING| Client: received Entity sync notification #0 for entity with netId 3754, but entity doesn't exist(def 'SpellAuraEntity')
+13:43:13.744  WARNING| Client: received Entity sync notification #0 for entity with netId 3862, but entity doesn't exist(def 'SpellAuraEntity')
+13:43:23.117  WARNING| Client: received Entity sync notification #0 for entity with netId 4069, but entity doesn't exist(def 'SpellAuraEntity')
+13:43:36.587  WARNING| Client: received Entity sync notification #0 for entity with netId 4373, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:43:36.587  WARNING| client: removing entity netId 4373 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:43:55.424         | Environment setting 's1347_livestation' loaded
+13:44:46.429  WARNING| Client: received Entity sync notification #0 for entity with netId 5266, but entity doesn't exist(def 'SpellAuraEntity')
+13:44:51.806  WARNING| Client: received Entity sync notification #0 for entity with netId 5470, but entity doesn't exist(def 'SpellAuraEntity')
+13:44:57.255  WARNING| Client: received Entity sync notification #0 for entity with netId 5635, but entity doesn't exist(def 'SpellAuraEntity')
+13:45:08.806  WARNING| Client: received Entity sync notification #0 for entity with netId 5778, but entity doesn't exist(def 'SpellAuraEntity')
+13:45:26.260  WARNING| client: removing entity netId 6258 but it doesn't exist (def 'SpellAuraEntity')
+13:45:36.696  WARNING| Client: received Entity sync notification #0 for entity with netId 6609, but entity doesn't exist(def 'SpellAuraEntity')
+13:45:43.098  WARNING| Client: received Entity sync notification #0 for entity with netId 6802, but entity doesn't exist(def 'SpellAuraEntity')
+13:45:59.306  WARNING| Client: received Entity sync notification #0 for entity with netId 7167, but entity doesn't exist(def 'SpellAuraEntity')
+13:46:05.209  WARNING| Client: received Entity sync notification #0 for entity with netId 7417, but entity doesn't exist(def 'SpellAuraEntity')
+13:46:05.210  WARNING| Client: received Entity sync notification #0 for entity with netId 7413, but entity doesn't exist(def 'Projectile_Artillery')
+13:46:05.210  WARNING| client: removing entity netId 7413 but it doesn't exist (def 'Projectile_Artillery')
+13:46:05.210  WARNING| Client: received Entity sync notification #0 for entity with netId 7414, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:46:05.210  WARNING| client: removing entity netId 7414 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:46:05.546  WARNING| Client: received Entity sync notification #0 for entity with netId 7424, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:46:05.546  WARNING| client: removing entity netId 7424 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:46:05.769  WARNING| Client: received Entity sync notification #0 for entity with netId 7431, but entity doesn't exist(def 'Projectile_Artillery')
+13:46:05.769  WARNING| client: removing entity netId 7431 but it doesn't exist (def 'Projectile_Artillery')
+13:46:13.622  WARNING| client: removing entity netId 7678 but it doesn't exist (def 'SpellAuraEntity')
+13:46:14.016  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:14.018  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:14.020  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:14.970  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:15.420  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:16.097         | Environment setting 's1347_livestation' loaded
+13:46:16.101  WARNING| ^1UiResourceManager::GetResourceHandleByNameInternal() - cannot find resource (resourceName: "minus", resourceType: "TEXTURE")
+13:46:20.743  WARNING| Client: received Entity sync notification #0 for entity with netId 7799, but entity doesn't exist(def 'SpellAuraEntity')
+13:46:29.289         | Environment setting 's1347_livestation' loaded
+13:46:30.844         | Environment setting 's1347_livestation' loaded
+13:46:35.216  WARNING| Client: received Entity sync notification #0 for entity with netId 8063, but entity doesn't exist(def 'SpellAuraEntity')
+13:46:46.772  WARNING| Client: received Entity sync notification #0 for entity with netId 8403, but entity doesn't exist(def 'SpellAuraEntity')
+13:46:53.412  WARNING| Client: received Entity sync notification #0 for entity with netId 8537, but entity doesn't exist(def 'SpellAuraEntity')
+13:47:02.106  WARNING| client: removing entity netId 8673 but it doesn't exist (def 'SpellAuraEntity')
+13:47:12.987  WARNING| Client: received Entity sync notification #0 for entity with netId 8867, but entity doesn't exist(def 'SpellAuraEntity')
+13:47:38.358  WARNING| Client: received Entity sync notification #0 for entity with netId 9234, but entity doesn't exist(def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:47:38.358  WARNING| client: removing entity netId 9234 but it doesn't exist (def 'Projectile_Nanobots_Cloud_T5_Epic')
+13:47:48.072  WARNING| Client: received Entity sync notification #0 for entity with netId 9389, but entity doesn't exist(def 'SpellAuraEntity')
+13:47:49.759  WARNING| Client: received Entity sync notification #0 for entity with netId 9462, but entity doesn't exist(def 'SpellAuraEntity')
+13:47:53.516  WARNING| Client: received Entity sync notification #0 for entity with netId 9640, but entity doesn't exist(def 'SpellAuraEntity')
+13:47:55.099  WARNING| Client: received Entity sync notification #0 for entity with netId 9716, but entity doesn't exist(def 'SpellAuraEntity')
+13:48:12.029  WARNING| Client: received Entity sync notification #0 for entity with netId 10501, but entity doesn't exist(def 'SpellAuraEntity')
+13:48:27.576  WARNING| Client: received Entity sync notification #0 for entity with netId 10969, but entity doesn't exist(def 'SpellAuraEntity')
+13:48:30.038  WARNING| Client: received Entity sync notification #0 for entity with netId 11020, but entity doesn't exist(def 'SpellAuraEntity')
+13:48:30.381  WARNING| Client: received Entity sync notification #0 for entity with netId 11027, but entity doesn't exist(def 'SpellAuraEntity')
+13:48:34.367  WARNING| client: removing entity netId 11082 but it doesn't exist (def 'SpellAuraEntity')
+13:48:58.609  WARNING| Client: received Entity sync notification #0 for entity with netId 11594, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:01.760  WARNING| client: removing entity netId 11695 but it doesn't exist (def 'SpellAuraEntity')
+13:49:07.816  WARNING| Client: received Entity sync notification #0 for entity with netId 11869, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:15.390  WARNING| Client: received Entity sync notification #0 for entity with netId 12056, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:19.714  WARNING| Client: received Entity sync notification #0 for entity with netId 12177, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:19.881  WARNING| Client: received Entity sync notification #0 for entity with netId 12182, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:25.495  WARNING| Client: received Entity sync notification #0 for entity with netId 12355, but entity doesn't exist(def 'SpellAuraEntity')
+13:49:39.585  WARNING| Client: received Entity sync notification #0 for entity with netId 12726, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:04.051  WARNING| Client: received Entity sync notification #0 for entity with netId 13581, but entity doesn't exist(def 'Projectile_Artillery')
+13:50:04.051  WARNING| client: removing entity netId 13581 but it doesn't exist (def 'Projectile_Artillery')
+13:50:05.338  WARNING| Client: received Entity sync notification #0 for entity with netId 13615, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:11.181  WARNING| Client: received Entity sync notification #0 for entity with netId 13784, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:12.129  WARNING| Client: received Entity sync notification #0 for entity with netId 13813, but entity doesn't exist(def 'Projectile_Artillery')
+13:50:12.130  WARNING| client: removing entity netId 13813 but it doesn't exist (def 'Projectile_Artillery')
+13:50:14.996  WARNING| Client: received Entity sync notification #0 for entity with netId 13899, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:16.512  WARNING| Client: received Entity sync notification #0 for entity with netId 13963, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:16.513  WARNING| Client: received Entity sync notification #0 for entity with netId 13962, but entity doesn't exist(def 'Projectile_Artillery')
+13:50:16.513  WARNING| client: removing entity netId 13962 but it doesn't exist (def 'Projectile_Artillery')
+13:50:16.909  WARNING| Client: received Entity sync notification #0 for entity with netId 13980, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:35.650  WARNING| Client: received Entity sync notification #0 for entity with netId 14620, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:43.896  WARNING| Client: received Entity sync notification #0 for entity with netId 14904, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:47.096  WARNING| Client: received Entity sync notification #0 for entity with netId 15006, but entity doesn't exist(def 'SpellAuraEntity')
+13:50:53.615  WARNING| Client: received Entity sync notification #0 for entity with netId 15231, but entity doesn't exist(def 'SpellAuraEntity')
+13:51:27.674  WARNING| Client: received Entity sync notification #0 for entity with netId 15615, but entity doesn't exist(def 'SpellAuraEntity')
+13:51:34.247  WARNING| Client: received Entity sync notification #0 for entity with netId 15826, but entity doesn't exist(def 'SpellAuraEntity')
+13:51:34.524  WARNING| Client: received Entity sync notification #0 for entity with netId 15834, but entity doesn't exist(def 'SpellAuraEntity')
+13:51:57.862  WARNING| Client: received Entity sync notification #0 for entity with netId 16450, but entity doesn't exist(def 'SpellAuraEntity')
+13:52:21.572         | client: player 8 leave game
+13:52:22.013         | client: player 10 leave game
+13:52:25.047         | client: player 0 leave game
+13:52:26.512         | client: player 6 leave game
+13:52:27.806         | client: player 4 leave game
+13:52:29.093         | client: player 2 leave game
+13:52:29.180  WARNING| m_bufferizedUICalls delivery took 20.2 ms
+13:52:30.595  WARNING| m_bufferizedUICalls delivery took 21.3 ms
+13:52:30.912  WARNING| m_bufferizedUICalls delivery took 19.2 ms
+13:52:35.217         | client: player 5 leave game
+13:52:38.029         | client: avgPing 38.1/1.8; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%
+13:52:38.029         | client: connection closed. DR_CLIENT_QUIT
+13:52:38.029         | Network stats (bytes per second): avg pushed 897, max pushed 1215, avg sent 1902, max sent 2304, avg received 4888, max received 7671
+13:52:38.119         | ReplayManager: stopping activity due to map change
+13:52:38.374         | ====== starting level: 'levels\mainmenu\mm_federation'  ======
+13:52:38.531         | Environment setting 'mm_federation' loaded
+13:52:39.125         | ====== level started:  'levels\mainmenu\mm_federation' success ======
+13:52:39.125         | Environment setting 'mm_federation' loaded
+13:52:39.261  WARNING| frame 319319 gameGlobals.frameTimeReal is too large (0.102672)
+13:52:39.973  WARNING| m_bufferizedUICalls delivery took 18.5 ms
+13:52:45.598  WARNING| m_bufferizedUICalls delivery took 23.4 ms
+13:59:07.534  WARNING| ^1PopVariantFromScriptFuncStack: script error "Operation success"; possible invalid value type
+13:59:07.545  WARNING| frame 374039 gameGlobals.frameTimeReal is too large (0.139517)
+14:01:32.571  WARNING| m_bufferizedUICalls delivery took 7.0 ms
+14:03:45.357         | Profile 'Deluvas' saved successfully in 'c:\users\deluvas\documents\my games\starconflict\profiles\0001.prfl'
+14:03:45.404  WARNING| frame 411067 gameGlobals.frameTimeReal is too large (0.112066)
+14:06:06.801         | GameApp shutdown
+14:06:06.812         | disconnected from masterServer with reason 41
+14:06:06.812         | Closed connection with masterServer addr 91.230.61.14:3802, reason 41
+14:06:06.817         | MasterServer_RequestServerStatus
+14:06:06.817         | MasterServer_RequestServerVersion
+14:06:06.817         | MasterServer_RequestNewsFeed
+14:06:06.817         | MasterServer_RequestServerAddresess
+14:06:07.296  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "soc_fb_ico", type: "TEXTURE")
+14:06:07.296  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "soc_vk_ico", type: "TEXTURE")
+14:06:07.296  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "mapBg_1_1", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_0", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_1", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_2", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_3", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_4", type: "TEXTURE")
+14:06:07.310  WARNING| ^1UiResourceManager::UnloadResourceInternal - somebody holds the ui resource (name: "dyntexture_webadvertimage_5", type: "TEXTURE")
+14:06:07.504    FATAL| There are undeleted shared strings '' somewhere (ref count 27182)!

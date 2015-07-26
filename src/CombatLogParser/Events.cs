@@ -5,12 +5,6 @@ using System.Text;
 
 namespace CombatLogParser
 {
-    public enum EventType
-    {
-        GameStart,
-        PlayerSpawn
-    }
-
     public enum DamageType
     {
         Emp,

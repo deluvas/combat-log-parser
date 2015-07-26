@@ -47,14 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game\GameLogEvents.cs" />
+    <Compile Include="Game\GameLogParser.cs" />
+    <Compile Include="LogParser.cs" />
     <Compile Include="Events.cs" />
     <Compile Include="LogEntry.cs" />
-    <Compile Include="CombatLogParser.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Combat\CombatLogParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

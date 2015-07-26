@@ -8,123 +8,21 @@ using System.Collections;
 
 namespace CombatLogParser
 {
-    public class CombatLogParser : IEnumerable<LogEntry>, IDisposable
+    public class CombatLogParser : LogParser
     {
-        private string logFile;
-        StreamReader stream;
-        StreamParsingType readType;
-        Func<string, LogEntry>[] parsers;
-        const byte timestampSize = 12;
-
-        protected CombatLogParser()
-        {
-        }
-
         public CombatLogParser( string logFile )
             : this( logFile, StreamParsingType.Default )
         {
         }
 
         public CombatLogParser( string logFile, StreamParsingType streamType )
+            : base( logFile, streamType )
         {
-            this.logFile = logFile;
-            this.readType = streamType;
-
-            // Using FileStream as wrapper for StreamReader to open for reading
-            var fileStream = new FileStream( logFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite );
-            stream = new StreamReader( fileStream );
-
             // List of functions to try/parse the line
             parsers = new Func<string, LogEntry>[] {
                 ParseGameSession, ParseGameStart, ParsePlayerSpawn, ParseAuraEvent, ParseSpellEvent, ParseDamageEvent, ParseEntityHealed, 
                 ParseMissileDetonation, ParseMissileLaunch, ParsePlayerKilled, ParseGameEnd
             };
-        }
-
-        public IEnumerator<LogEntry> GetEnumerator()
-        {
-            switch ( readType ) {
-                case StreamParsingType.Default:
-                    //
-                    // Default/one time parsing of the whole Stream
-                    //
-                    while ( !stream.EndOfStream ) {
-                        var entry = ParseLine();
-                        if ( entry != null )
-                            yield return entry;
-                    }
-                    break;
-                case StreamParsingType.Continous:
-                    //
-                    // Continous polling the Stream
-                    //
-                    while ( true ) {
-                        // Keep polling the Stream
-                        // XXX: is this even optimal?
-                        if ( stream.EndOfStream ) {
-                            System.Threading.Thread.Sleep( 500 );
-                            continue;
-                        }
-                        var entry = ParseLine();
-                        if ( entry != null )
-                            yield return entry;
-                    }
-            }
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-
-        private LogEntry ParseLine()
-        {
-            var line = stream.ReadLine();
-            LogEntry entry = null;
-
-            // Try parse timestamp
-            var timeEntry = ParseTimeEntry( line );
-
-            // Invoking the functions
-            foreach ( var parser in parsers ) {
-                entry = parser( line );
-                if ( entry != null ) {
-                    // Update the time with the parsed timestamp
-                    entry.Time = timeEntry.Time;
-                    return entry;
-                }
-            }
-
-            if ( entry == null ) {
-                // houston problem!
-                // invoke ParseError
-                return null;
-            }
-
-            return null;
-        }
-
-        protected LogEntry ParseTimeEntry( string line )
-        {
-            // 07:09:14.925  CMBT   | 
-
-            if ( line.Length < timestampSize ) {
-                return null;
-            }
-            // Grab the first <timestampSize> bytes
-            // They are at the beginning of the lines
-            // Example: 07:09:14.925  CMBT
-            string time = line.Substring( 0, timestampSize );
-            DateTime parsed;
-
-            // Try parsing the timestamp
-            if ( !DateTime.TryParse( time, out parsed ) ) {
-                return null;
-            }
-            var obj = new LogEntry {
-                Time = parsed
-            };
-            return obj;
         }
 
         protected GameSessionEntry ParseGameSession( string line )
@@ -352,16 +250,5 @@ namespace CombatLogParser
 
             return obj;
         }
-
-        public void Dispose()
-        {
-            stream.Close();
-        }
-    }
-
-    public enum StreamParsingType
-    {
-        Default = 0,
-        Continous
     }
 }
